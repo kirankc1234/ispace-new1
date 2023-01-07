@@ -1,0 +1,301 @@
+.clearfix{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.container-fluid{
+    text-align: center;
+}
+#header{
+    background-image: url(images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+nav{
+    padding: 10px;
+    background-color: rgba(139, 126, 126, 0.2);
+}
+a{
+    text-decoration: none;
+    color: rgb(52, 152, 165);
+    padding: 10px;
+    font-weight: bold;
+}
+#header span{
+    color: yellow;
+}
+#header>div{
+    padding: 40px 10px;
+}
+#header h1{
+    color: cornflowerblue;
+}
+#header p{
+    color: chartreuse;
+}
+#header button{
+    border: 2px solid gray;
+    padding: 10px 40px;
+    background-color: rgba(139, 126, 126, 0.1);
+    margin: 5px;
+    color: white;
+}
+#header button:hover{
+    background-color: yellow;
+}
+ /* Progress Bar */
+ #about-1{
+     text-align: left;
+ }
+ .progress{
+    height: 4px;
+    border-radius: 10px;
+    margin: auto;
+}
+.progress-bar{
+        background-color: green;
+        border-radius: 5px;
+        position: relative;
+}
+[aria-valuenow]::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    border-radius: 100%;
+    right: 0;
+    background-color: black;
+}
+#typography .progress-bar{
+    background-color: coral !important;
+}
+#typography{
+    color: coral;
+}
+#design .progress-bar{
+    background-color: yellow !important;
+}
+#design{
+    color: yellow;
+}
+#development .progress-bar{
+    background-color: rgb(122, 82, 139);
+}
+#development{
+    color: rgb(122, 82, 139);
+}
+.tooltip{
+    position: relative;
+    float: right;
+}
+.tooltip > .tooltip-inner{
+    background-color: yellow;
+    padding: 15px 5px;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.popOver > .tooltip > .tooltip-arrow {
+    border-top: 5px solid yellow;
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+}
+/* Portfolio */
+#projects{
+    text-align: center;
+    background-color: rgba(245, 240, 240, 0.938);
+}
+#projects .row img{
+    height: 300px;
+    padding: 0;
+}
+#projects .row div{
+    padding: 0px;
+}
+/* Testimonials */
+#testimonials {
+    background-image: url(images/05.png);
+    background-size: cover;
+}
+#testimonials h2,#testimonials h3, #testimonials p{
+    color: white;
+}
+#testimonials img{
+    width: 15%;
+    margin: auto;
+    border-radius: 50%;
+}
+#testimonials .container{
+    background-color: rgba(51, 209, 193, 0.5);
+    padding: 10px;
+}
+#testimonials p{
+    font-weight: bold;
+}
+#testimonials h3{
+    padding: 10px;
+}
+/* Services */
+#services #web-design h3{
+    color: coral;
+}
+#web-development h3{
+    color: yellow;
+}
+#analisys h3{
+    color: rgb(122, 82, 139);
+}
+/* Blog */
+#blog{
+    background-color: rgb(18, 18, 29);
+}
+#blog h2, #blog button{
+    color: white;
+}
+#blog p{
+    color: gray;
+}
+#blog button{
+    padding: 5px 15px;
+    border: none;
+    background-color: yellow;
+}
+#blog img{
+    height: 200px;
+}
+#blog .container{
+    text-align: left;
+}
+#blog-bg div{
+    background-color: white;
+    padding: 10px;
+}
+#blog .container button{
+    border: none;
+    color: yellow;
+    background-color: white;
+}
+#blog .container i{
+    border-radius: 50%;
+    background-color: yellow;
+    color: white;
+    padding: 3px;
+    font-size: 10px;
+}
+#blog-1{
+    background-image: url(images/images\ \(10\).jpeg);
+    color: white;
+    background-repeat: repeat;
+    background-position: left center;
+    background-color: rgba(238, 46, 12, 0.9);
+}
+#blog-1-1{
+    padding: 10px;
+}
+/* Team */
+#team{
+    background-color: rgb(233, 229, 229);
+}
+#team1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+}
+#team1 img{
+    width: 100%;
+    margin: auto;
+    border-radius: 50%;
+}
+#team1 div:nth-child(2){
+    padding: 0 10px;
+}
+#team1-1 h6, #team1-1 i{
+    color: coral;
+}
+#team1-2 h6, #team1-2 i{
+    color: yellow;
+}
+#team1-3 h6, #team1-3 i{
+    color: rgb(122, 82, 139);
+}
+#team1-1 i{
+    border: 1px solid coral;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}
+#team1-2 i{
+    border: 1px solid yellow;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}
+#team1-3 i{
+    border: 1px solid rgb(122, 82, 139);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}
+/* Contact */
+#contact #contact1{
+    display: flex;
+    text-align: left;
+}
+#contact #contact1 h6, #contact #contact1 p{
+    padding: 5px;
+}
+#contact #contact1 h6{
+    color: coral;
+}
+#contact .vertical-line{
+    width: 2px;
+    background-color: yellow;
+    height: 60%;
+}
+#contact #contact2{
+    align-items: baseline;
+}
+#contact i{
+    border: 1px solid coral;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}
+form{
+    text-align: left;
+}
+form input{
+    width: 100%;
+    height: 30px;
+}
+form textarea{
+    width: 100%;
+}
+form button{
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: yellow;
+}
+/* Footer */
+footer{
+    background-color: rgb(18, 18, 29);
+    padding: 10px;
+}
+footer h4{
+    color: white;
+    text-align: left;
+}
+footer div ul{
+    list-style: none;
+    color: gray;
+    text-align: left;
+    padding: 5px;
+}
+footer div ul li::before{
+    content: '>';
+}
